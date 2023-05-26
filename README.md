@@ -19,6 +19,8 @@ O objetivo do desafio é desenvolver uma aplicação funcional, com uma interfac
 
 ![Mobile 2](https://github.com/davi-montalvao/challenge77Sol/blob/main/src/assets/layout-details-mobile.png)
 
+# 🖥️ Veja a Demo
+https://challenge77-ouve05c8l-davi-montalvao.vercel.app/
 
 # 🚀 Tecnologias utilizadas
 ## Front-end
