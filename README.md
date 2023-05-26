@@ -1,38 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Challenge 77Sol
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/davi-montalvao/challenge77sol/blob/master/LICENSE)
 
-## Getting Started
+# 💭 Sobre o projeto
+Este projeto é uma solução desenvolvida como parte do desafio proposto pela empresa 77SolTech. O desafio consiste em criar uma aplicação em React que funcione como um simulador solar.
 
-First, run the development server:
+A aplicação permite aos usuários inserir informações relevantes, como o CEP, tipo de estrutura de telhado e o valor da conta de luz, e com base nessas informações, calcular e exibir detalhes sobre o potencial de geração de energia solar, valor da instalação, opções de parcelamento e emissão de CO2 evitada.
 
+O objetivo do desafio é desenvolver uma aplicação funcional, com uma interface intuitiva e responsiva, além de garantir que os cálculos sejam precisos e os resultados sejam exibidos de forma clara e compreensível.
+
+
+## 🖥️ Layout web
+![Web 1](https://github.com/davi-montalvao/challenge77Sol/blob/main/src/assets/layout-web.png)
+
+![Web 2](https://github.com/davi-montalvao/challenge77Sol/blob/main/src/assets/layout-details-web.png)
+
+## 📱 Layout mobile
+![Mobile 1](https://github.com/davi-montalvao/challenge77Sol/blob/main/src/assets/layout-mobile.png)
+
+![Mobile 2](https://github.com/davi-montalvao/challenge77Sol/blob/main/src/assets/layout-details-mobile.png)
+
+
+# 🚀 Tecnologias utilizadas
+## Front-end
+- Typescript / HTML / SASS / JS
+- ReactJS
+- NextJs
+- Axios
+- JestJs
+- Storybook
+
+# 🎲 Como executar o projeto
 ```bash
-npm run dev
-# or
+# clonar respositório
+https://github.com/davi-montalvao/challenge77Sol.git
+
+# entrar na pasta do projeto challenge77Sol
+cd challenge77Sol
+
+# instalar as dependências
+yarn install
+
+# executar o projeto
 yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Autor
+Davi Montalvão
+https://www.linkedin.com/in/davi-montalvao-dev/
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Meu Portfólio
+https://www.davimontalvao.com.br
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with love and persistence 🤍💪🏽
